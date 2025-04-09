@@ -1,0 +1,114 @@
+/* Container Styles */
+.dashboard-container {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .dashboard-header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .dashboard-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .dashboard-welcome {
+    font-size: 0.875rem;
+  }
+  
+  .dashboard-user {
+    font-weight: bold;
+  }
+  
+  /* Main Section */
+  .dashboard-main {
+    padding: 24px;
+  }
+  
+  .dashboard-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 24px;
+  }
+  
+  /* Grid */
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Cards */
+  .dashboard-card {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .dashboard-card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  .card-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .card-text {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  /* Icons */
+  .dashboard-icon {
+    font-size: 2rem;
+  }
+  
+  .dashboard-icon.blue {
+    color: #2563eb;
+  }
+  
+  .dashboard-icon.green {
+    color: #10b981;
+  }
+  
+  .dashboard-icon.yellow {
+    color: #f59e0b;
+  }
+  
+  .dashboard-icon.purple {
+    color: #8b5cf6;
+  }
+  .logout-button {
+    width:100px ;
+    margin-left: 20px;
+    padding: 6px 12px;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #dc2626;
+  }
+  
