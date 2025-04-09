@@ -21,8 +21,8 @@ public class LoginServlet extends HttpServlet {
     @Override
     public void init() {
 
-        users.put("john", "1234");
-        users.put("alice", "pass");
+        users.put("Logesh", "password");
+        users.put("Gowtham", "1234");
         users.put("admin", "admin123");
     }
 
